@@ -24,7 +24,7 @@ end
 
 def winner(board)
   over?(board)
-  board.select do |win_combo|
+  board.select do |token|
 end
   
   
