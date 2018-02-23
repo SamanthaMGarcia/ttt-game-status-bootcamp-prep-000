@@ -24,7 +24,7 @@ end
 
 def winner(board)
   won?(board)
-  board[win_combo[0][0]]
+  board[0]
 end
   
   
