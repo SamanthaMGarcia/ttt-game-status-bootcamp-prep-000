@@ -23,6 +23,8 @@ def over?(board)
 end
 
 def winner(board)
+  board.
+  over?(board) 
   
   
 WIN_COMBINATIONS = [
