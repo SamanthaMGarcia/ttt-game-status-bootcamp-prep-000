@@ -25,6 +25,7 @@ end
 def winner(board)
   board.select do |win_combo|
   over?(board) 
+end
   
   
 WIN_COMBINATIONS = [
