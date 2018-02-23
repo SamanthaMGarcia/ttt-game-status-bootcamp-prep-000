@@ -24,7 +24,7 @@ end
 
 def winner(board)
   won?(board)
-  board.select do |win_combo|
+  board.find do |win_combo|
 end
   
   
