@@ -23,7 +23,7 @@ def over?(board)
 end
 
 def winner(board)
-  board.select do |
+  board.select do |win_combo|
   over?(board) 
   
   
